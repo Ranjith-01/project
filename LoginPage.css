@@ -1,0 +1,34 @@
+body{
+    animation: 
+    backgroundColorPalette;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+   
+}
+@keyframes backgroundColorPalette {
+    0% {
+      background: #d7a7fb;
+    }
+    25% {
+      background: #aeabfc;
+    }
+    50% {
+      background: #aadcf5;
+    }
+    75% {
+      background: #b8f3f7;
+    }
+    100% {
+      background: #f9d8f5;
+    }
+  }
+  #login{
+    
+        width: 300px;
+        border: 15px solid rgb(9, 9, 9);
+        padding: 50px;
+        margin: 5px;
+        
+      
+  }
